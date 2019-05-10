@@ -6,8 +6,8 @@
     "license": "MIT",
     "main": "dist/index.js",
     "scripts": {
-        "build": "node .app/build.js",
-        "start": "node .app/dev.js"
+        "build": "node .sln/build.js",
+        "start": "node .sln/dev.js"
     },
     "dependencies": {},
     "devDependencies": {

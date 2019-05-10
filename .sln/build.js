@@ -33,7 +33,7 @@ function buildTargetWithConfig(config) {
 }
 
 function buildTarget(name) {
-  let entries = findEntries(path.resolve('.app'), `${name}/app.config.js`);
+  let entries = findEntries(path.resolve('.sln'), `${name}/app.config.js`);
   if (isObjectEmpty(entries)) {
     console.log('Nothing to build!');
     return;
